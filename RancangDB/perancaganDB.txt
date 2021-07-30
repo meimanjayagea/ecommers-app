@@ -1,0 +1,23 @@
+1. Merancang DataBase
+- User
+- Barang
+   1. Nama Barang
+   2. Harga
+   3. Stock
+   4. Keterangan
+- Pesanan
+   1. user_id (one to many : user)    : Andi
+   2. tanggal                         : 14 November
+   3. jumlah_harga                    : 170.000
+
+- Pesanan Detail
+   1. Barang_id (one to many : barang)  : Batik Hijau | Batik Kuning
+   2. pesan_id (one to many : pesanan)  : 1           | 1
+   3. jumlah                            : 2           | 1
+   4. jumlah_harga                      : 120.000     | 50000    
+   5. 
+
+
+   ilustrasi :
+   Andi akan beli batik di toko batik trusmi pada tgl 14 november. 
+   di memesan batik hijau sebanyak 2 dan batik kuning sebanyak 2
